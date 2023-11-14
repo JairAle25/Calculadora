@@ -1,0 +1,22 @@
+.btnIcon{
+    padding: 1.5rem 2.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    
+}
+.btnNum{
+    background-color: rgb(66, 69, 72);
+    font-size: 1.3rem;
+}
+.btnMat{
+    background-color: rgb(112, 117, 122);
+    font-size: 1.5rem;
+}
+.btnIgual{
+    background-color: rgb(174, 203, 250);
+    color: black;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
