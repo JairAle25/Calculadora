@@ -1,36 +1,20 @@
 import { useState } from 'react'
 import { Boton } from './Boton'
+import { iconos } from './Constants/Icons';
 import './App.css'
-
-const iconos=[
-  {icon:"(", tipo:"mat"},
-  {icon:")", tipo:"mat"},
-  {icon:"%", tipo:"mat"},
-  {icon:"CE", tipo:"limpiar"},
-  {icon:"7", tipo:"num"},
-  {icon:"8", tipo:"num"},
-  {icon:"9", tipo:"num"},
-  {icon:"÷", tipo:"mat"},
-  {icon:"4", tipo:"num"},
-  {icon:"5", tipo:"num"},
-  {icon:"6", tipo:"num"},
-  {icon:"×", tipo:"mat"},
-  {icon:"1", tipo:"num"},
-  {icon:"2", tipo:"num"},
-  {icon:"3", tipo:"num"},
-  {icon:"-", tipo:"mat"},
-  {icon:"0", tipo:"num"},
-  {icon:".", tipo:"num"},
-  {icon:"=", tipo:"igual"},
-  {icon:"+", tipo:"mat"},
-
-]
 
 function App() {
 
   const [cuentaAnterior,setCuentaAnterior]=useState("");
   const [cuentaEnPantalla,setCuentaEnPantalla]=useState("");
   const [cuentaRealizar,setCuentaRealizar]=useState("");
+
+  const borrarCuenta=(cuenta)=>{
+    let cuentaArray = cuenta.split('');
+    cuentaArray.pop();
+    return cuentaArray.join('');
+  }
+  
 
   const actualizarCuenta =(valor,tipo)=>{
     let cuentaMostar = cuentaEnPantalla;
@@ -55,6 +39,10 @@ function App() {
       cuentaEcha = "";
       setCuentaAnterior(cuentaEcha);
     }
+    else if(tipo==="borrar"){
+      cuentaMostar=borrarCuenta(cuentaMostar);
+      cuentaArealizar=borrarCuenta(cuentaArealizar);
+    }
     else{
       cuentaMostar+=`${valor}`;
     }
@@ -74,7 +62,6 @@ function App() {
   return (
     <main className='content-Calc'>
       <div className='content-calc-width'>
-        <h1>HOLA MUNDO</h1>
         <div className='Content-Calculo'>
           <p className='cuentaAnterior'>{cuentaAnterior}</p>
           <p className='numElegido'>{cuentaEnPantalla}</p>

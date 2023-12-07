@@ -1,42 +1,43 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-Calc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.content-calc-width{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(203, 203, 203);
+  padding: 2.2rem 1.4rem;
+  border-radius: 10px;
+  gap: 1rem;
 }
-
-.card {
-  padding: 2em;
+.Content-icons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
 }
-
-.read-the-docs {
-  color: #888;
+.Content-Calculo{
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 10px;
+  text-align: end;
+  background-color: white;
+}
+.Content-Calculo p{
+  padding-right: 1rem;
+}
+.numElegido{
+  height: 10px;
+  font-size: 1.8rem;
+}
+.cuentaAnterior{
+  height: 5px;
+  color: rgb(117, 117, 117);
+  font-size: 1.2rem;
 }

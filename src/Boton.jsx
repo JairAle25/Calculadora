@@ -7,14 +7,11 @@ export const Boton = ({icon,tipo,actualizarCuenta}) => {
     if(tipo=="num"){
         className+="btnNum";
     }
-    if(tipo=="mat"){
+    if(tipo=="mat"||tipo=="limpiar"||tipo=="borrar"){
         className+="btnMat";
     }
     if(tipo=="igual"){
         className+="btnIgual";
-    }
-    if(tipo=="limpiar"){
-        className+="btnMat";
     }
     return (  
         <>
