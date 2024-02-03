@@ -1,11 +1,16 @@
 
-
+*{
+  padding: 0;
+  margin: 0;
+}
 .content-Calc{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: linear-gradient(180deg, rgb(13, 14, 15) 0, rgb(16, 17, 18) 50%, rgb(46, 22, 0) 100%);
+  
 }
 .content-calc-width{
   display: flex;
@@ -28,12 +33,17 @@
   border-radius: 10px;
   text-align: end;
   background-color: white;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 1.2rem;
 }
 .Content-Calculo p{
   padding-right: 1rem;
 }
 .numElegido{
-  height: 10px;
   font-size: 1.8rem;
 }
 .cuentaAnterior{
