@@ -18,4 +18,4 @@ Esta calculadora fue desarrollada como un proyecto práctico para mejorar mis ha
 
 ## Link De La Pagina
 
-[https://task-list-proyect.netlify.app/](https://calculadora-jc.netlify.app/)
+https://calculadora-jc.netlify.app/
