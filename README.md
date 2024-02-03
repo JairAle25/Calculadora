@@ -1,4 +1,4 @@
-# <span style="color:red;display:flex;">Calculadora<img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" style="width:45px;"></img></span>
+# <span style="color:red;display:flex;">Calculadora <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" style="width:45px;"></img></span>
 
 ## Descripción del Proyecto
 
