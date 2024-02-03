@@ -6,7 +6,7 @@ Esta calculadora fue desarrollada como un proyecto práctico para mejorar mis ha
 
 ## Características Principales
 
- **Operaciones Básicas:** Realiza sumas, restas, multiplicaciones y divisiones de manera rápida y sencilla.
+- **Operaciones Básicas:** Realiza sumas, restas, multiplicaciones y divisiones de manera rápida y sencilla.
 
 - **Interfaz Intuitiva:** La interfaz de usuario fue diseñada pensando en la simplicidad y la facilidad de uso.
 
